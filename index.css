@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+
+
+
+
+
+  .Top-Footer{
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 0.5px;
+  }
+
+
+
+
+
+
+
+  .navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the logo horizontally */
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;   
+  }
+  
+  .navbar-logo {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0;
+    padding: 0;
+    margin-left: 60px; /* Increased spacing */
+  }
+  
+  .navbar-item:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: color 0.3s; /* Transition effect for color change */
+  }
+  
+  .navbar-link:hover {
+    color: #008080; /* Change color on hover */
+  }
+
+
+
+  
+
+
+
+
+
+
+.video-section {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-section video {
+    width: 100%;
+    height: 600px;
+  }
+  
+
+
+
+
+
+
+
+  .new-section {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  
+  .section-header {
+    font-size: 35px;
+    font-weight: bold;
+    color: #008080;
+  }
+  
+  .section-paragraph {
+    font-size: 20px;
+    color: black;
+  }
+  
+  
+
+
+
+
+
+  
+  
+  .feature-box p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555
+  }
+  
+.img1{
+  margin-left: -40px;
+  max-width: fit-content;
+  margin-top: -20px;
+  margin-right: -40px;
+}
+
+  .read{
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #008080;
+    color: white;
+    cursor: none;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 10 px;
+    text-decoration: none;
+  }
+  
+  .read:hover {
+    background-color: #124a4a;
+  }
+
+  .feature-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .feature-box {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .feature-box img {
+    width: 340px;
+    height: auto;
+  }
+  
+  .feature-box h3 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
+
+  .image-text-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .image-column {
+    flex: 1;
+  }
+
+  
+  .image-column img {
+    max-width: 100%;
+  }
+  .img2{
+    margin-left: -500px;
+
+  }
+  
+  .text-column {
+    flex: 2;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 720px;
+  }
+  
+  .text-column h2 {
+    font-size: 48px;
+  }
+  
+  .text-column h3 {
+    font-size: 20px;
+    margin-top: 55px;
+  }
+  
+  .text-column p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .read-more {
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Make the link a block-level element */
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+  }
+  
+  .read-more:hover {
+    background-color:#253c3c ; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+
+
+
+
+
+
+  .call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008080;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .centered-content {
+    max-width: 600px;
+  }
+  
+  .call-to-action-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .call-to-action-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .book-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: #008080;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .book-button:hover {
+    background-color: #154747;
+    color: white;
+  }
+
+  
+
+
+
+  .three-box-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: white;
+  }
+  
+  .bi.bi-person-circle{
+    margin-bottom: -4.5px;
+  }
+
+
+  .section-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .box p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .box h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+
+  .image-content-section {
+    display: flex;
+    padding: 40px 0;
+    background-color: #008080;
+  }
+  
+  .text-content {
+    flex: 2;
+    padding-left: 170px;
+    text-align: center;
+  }
+  
+  .text-content h2 {
+    font-size: 28px;
+    color: white;
+  }
+  
+  .text-content h3, .text-content h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .image-column {
+    flex: 3;
+  }
+  
+  .image-column img {
+    margin-left: 234px;
+    height: 600px;
+    margin-bottom: -44px;
+    margin-top: -40px;
+  }
+
+  .img3{
+    height: 600px;
+    width: 771px;
+  }
+  
+
+
+
+
+  .footer {
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    color: black ;
+  }
+  
